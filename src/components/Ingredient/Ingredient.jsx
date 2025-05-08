@@ -1,4 +1,4 @@
-const Ingredient = ({ ingrdient, onAdd, onRemove, isStack }) => {
+const Ingredient = ({ ingredient, onAdd, onRemove, isStack }) => {
     return (
         <li style={{ backgroundColor: ingredient.color }}>
             {ingredient.name}
